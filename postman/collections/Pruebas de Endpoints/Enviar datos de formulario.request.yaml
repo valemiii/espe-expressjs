@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3005/form
+method: POST
+headers:
+  Content-Type: application/x-www-form-urlencoded
+body:
+  type: urlencoded
+  content:
+    nombre: Paulo Galarza
+    email: paulo@example.com
+order: 1000

@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3005/api/data
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "clave1": "valor1",
+        "clave2": "valor2"
+    }
+order: 2000
